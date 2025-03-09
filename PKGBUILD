@@ -30,7 +30,7 @@ package() {
   mkdir -p "$pkgdir/usr/share/applications"
   
   # Copia arquivos do aplicativo
-  cp -r dist/* "$pkgdir/usr/lib/$pkgname/"
+  cp -r /* "$pkgdir/usr/lib/$pkgname/"
   
   # Cria um script para iniciar o aplicativo
   echo '#!/bin/sh' > "$pkgdir/usr/bin/$pkgname"
@@ -41,7 +41,7 @@ package() {
   echo "[Desktop Entry]
 Name=Electron DeepSeek
 Comment=Descrição do seu aplicativo electron-deepseek
-Exec=$pkgname
+Exec=npm start $pkgname
 Terminal=false
 Type=Application
 Categories=Utility;

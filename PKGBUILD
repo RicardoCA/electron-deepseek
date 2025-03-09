@@ -2,7 +2,7 @@
 pkgname=electron-deepseek
 pkgver=1.0.0
 pkgrel=1
-pkgdesc="Descrição do seu aplicativo electron-deepseek"
+pkgdesc="Electron DeepSeek App"
 arch=('x86_64')
 url="https://github.com/RicardoCA/electron-deepseek"
 license=('MIT')
@@ -33,7 +33,7 @@ package() {
   mkdir -p "$pkgdir/usr/share/applications"
   echo "[Desktop Entry]
 Name=Electron DeepSeek
-Comment=Descrição do seu aplicativo electron-deepseek
+Comment=Electron DeepSeek App
 Exec=$pkgname
 Terminal=false
 Type=Application

@@ -1,4 +1,4 @@
-<h1>electron-deepseek</h1>
+<h1>electron-deepseek (web version app)</h1>
 <br/>
 <h2>Installation</h2><br/>
 <p>

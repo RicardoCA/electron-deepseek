@@ -1,6 +1,6 @@
 <h1>electron-deepseek</h1>
-<br/><br/>
-<h2>Installation</h2><br/><br/>
+<br/>
+<h2>Installation</h2><br/>
 <p>
 Install this with <strong>yay -S electron-deepseek</strong><br/>
 Or <strong>paru -S electron-deepseek</strong>
